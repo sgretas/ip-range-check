@@ -15,4 +15,5 @@ const result = ipAddressArray.map(ipAddress => {
   return checkedIp;
 }).filter(ipAddress => ipAddress !== 'In Range').toString()
 
+fs.writeFileSync('./files/ipOutOfBounds.txt', result);
 console.log(result);
