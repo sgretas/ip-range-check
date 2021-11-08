@@ -22,4 +22,5 @@ const result = ipAddresses.map(ipAddress => {
 }).filter(ipAddress => ipAddress !== 'In Range').toString();
 
 fs.writeFileSync('./files/ipOutOfBounds.txt', result);
-console.log(result);
+console.log('IP addresses out of bounds:')
+console.log(result ? result : 'None.');

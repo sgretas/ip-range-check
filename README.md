@@ -8,7 +8,7 @@ This app is using the npm package ip-range-check to check if a list of IP addres
 3. Run the app `npm start`
 
 ## Format in the files
-The formatting of a txt file has to be like this:
+Each txt file must be formatted as shown below:
 > 192.168.2.1  
 > 192.168.2.2  
 > 192.168.2.3  
